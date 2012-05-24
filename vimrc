@@ -1,3 +1,7 @@
+"" Pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
@@ -22,10 +26,6 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 "" Looks
 colorscheme ir_black
-
-"" Pathogen
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 
 "" Remap leader to ,
 let mapleader = ","
