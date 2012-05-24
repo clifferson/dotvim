@@ -36,5 +36,5 @@ For things like generated helptags etc. Add ignore=dirty to .gitmodules
 
 ## More infos
 
-*[Source](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
-*[Submodule Changes](http://www.nils-haldenwang.de/frameworks-and-tools/git/how-to-ignore-changes-in-git-submodules)
+* [Plugins as submodules](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
+* [Ignore submodule changes](http://www.nils-haldenwang.de/frameworks-and-tools/git/how-to-ignore-changes-in-git-submodules)
