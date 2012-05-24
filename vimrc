@@ -31,7 +31,7 @@ colorscheme ir_black
 let mapleader = ","
 
 "" Command-t bindings
-noremap <leader>t <Esc>:CommandT<CR>
+"" noremap <leader>t <Esc>:CommandT<CR>
 
 "" Make Y behave like other capitals
 map Y y$
