@@ -2,11 +2,15 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-set nocompatible                " choose no compatibility with legacy vi
 syntax enable
-set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
+
+"" Powerline settings
+set nocompatible                " Disable VI-compatibility
+set laststatus=2                " Always show the sattus line
+set encoding=utf-8              " Necessary to show unicode glyphs
+set t_Co=256                    " Explicitly tell vim that the terminal supports 256 colors
 
 "" Whitespace
 set nowrap                      " don't wrap lines
