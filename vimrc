@@ -43,3 +43,11 @@ map Y y$
 " highlight the current line/column / f12 to disable
 set cursorline cursorcolumn 
 noremap <silent><f12> :set cursorline! cursorcolumn!<cr>
+
+" Safe semi-colon as colon
+" " http://vim.wikia.com/wiki/Map_semicolon_to_colon
+map ; :
+nnoremap ;; ;
+
+" Remap Escape to jj
+inoremap jj <Esc>
