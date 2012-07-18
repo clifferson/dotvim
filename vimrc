@@ -31,6 +31,9 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 "" Looks
 colorscheme ir_black
 
+"" thor file syntax highlighting
+au BufRead,BufNewFile *.thor set filetype=ruby
+
 "" Remap leader to ,
 let mapleader = ","
 
