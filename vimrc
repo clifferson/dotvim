@@ -33,6 +33,7 @@ colorscheme ir_black
 
 "" thor file syntax highlighting
 au BufRead,BufNewFile *.thor set filetype=ruby
+au BufRead,BufNewFile Thorfile set filetype=ruby
 
 "" Remap leader to ,
 let mapleader = ","
