@@ -1,15 +1,16 @@
-## Installing new plugins as submodules
-
-In  ~/.vim 
-`git submodule add http://github.com/user/foo.git bundle/foo`
-`git add bundle/foo`
-`git add .gitmodules`
-
-## Installing dotvim
+## 'Installing' dotvim
 
 ```bash
 curl -L https://raw.github.com/clifferson/dotvim/master/install.sh | sh
 ```
+## Adding new plugins as submodules
+
+In  ~/.vim 
+```bash
+git submodule add http://github.com/user/foo.git bundle/foo
+git add bundle/foo .gitmodules
+```
+
 ## Updating a plugin bundle
 
 ```bash
