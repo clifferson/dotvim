@@ -7,3 +7,6 @@
 [submodule "bundle/vim-ruby-runner"]
 	path = bundle/vim-ruby-runner
 	url = https://github.com/henrik/vim-ruby-runner.git
+[submodule "bundle/solarized-color"]
+	path = bundle/solarized-color
+	url = git://github.com/altercation/vim-colors-solarized.git

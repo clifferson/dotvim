@@ -29,7 +29,8 @@ set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 "" Looks
-colorscheme ir_black
+set background=dark
+colorscheme solarized
 
 "" thor file syntax highlighting
 au BufRead,BufNewFile *.thor set filetype=ruby
@@ -44,9 +45,9 @@ let mapleader = ","
 "" Make Y behave like other capitals
 map Y y$
 
-" highlight the current line/column / f12 to disable
-set cursorline cursorcolumn 
-noremap <silent><f12> :set cursorline! cursorcolumn!<cr>
+"" highlight the current line/column / f12 to disable
+"" set cursorline cursorcolumn 
+"" noremap <silent><f12> :set cursorline! cursorcolumn!<cr>
 
 " Safe semi-colon as colon
 " " http://vim.wikia.com/wiki/Map_semicolon_to_colon
