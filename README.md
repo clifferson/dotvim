@@ -1,16 +1,14 @@
 ## Installing new plugins as submodules
 
-Inside the .vim dir `git submodule add http://github.com/user/foo.git bundle/foo`
+In  ~/.vim 
+`git submodule add http://github.com/user/foo.git bundle/foo`
+`git add bundle/foo`
+`git add .gitmodules`
 
-## Installing dotvim on another machine
+## Installing dotvim
 
 ```bash
-cd ~
-git clone http://github.com/username/dotvim.git ~/.vim
-ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
-cd ~/.vim
-git submodule update --init
+curl -L https://raw.github.com/clifferson/dotvim/master/install.sh | sh
 ```
 ## Updating a plugin bundle
 
