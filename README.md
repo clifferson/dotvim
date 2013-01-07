@@ -3,6 +3,7 @@
 ```bash
 curl -L https://raw.github.com/clifferson/dotvim/master/install.sh | sh
 ```
+This will clone the git repo to ~/.vim and symlink the vimrc and gvimrc files to ~
 ## Adding new plugins as submodules
 
 In  ~/.vim 
