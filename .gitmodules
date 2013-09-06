@@ -12,4 +12,4 @@
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-paren-crosshairs"]
 	path = bundle/vim-paren-crosshairs
-	url = git@github.com:chreekat/vim-paren-crosshairs.git
+	url = git://github.com/chreekat/vim-paren-crosshairs.git
