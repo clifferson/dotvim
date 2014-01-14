@@ -29,8 +29,12 @@ set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 "" Looks
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
+
+"" vim-markdown - https://github.com/plasticboy/vim-markdown/
+"let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_initial_foldlevel=1
 
 "" thor file syntax highlighting
 au BufRead,BufNewFile *.thor set filetype=ruby
