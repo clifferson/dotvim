@@ -9,7 +9,7 @@ This will clone the git repo to ~/.vim and symlink the vimrc and gvimrc files to
 In  ~/.vim 
 ```bash
 git submodule add http://github.com/user/foo.git bundle/foo
-git add bundle/foo .gitmodules
+git commit -m "add foo plugin as submodule"
 ```
 
 ## Updating a plugin bundle
