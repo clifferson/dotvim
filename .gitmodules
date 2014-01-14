@@ -13,3 +13,6 @@
 [submodule "bundle/vim-paren-crosshairs"]
 	path = bundle/vim-paren-crosshairs
 	url = git://github.com/chreekat/vim-paren-crosshairs.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
