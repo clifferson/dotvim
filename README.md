@@ -21,8 +21,10 @@ git pull origin master
 
 ## Updating all bundled plugins
 
-`git submodule foreach git pull origin master`  
-`git add . && git commit -m "update submodules"`
+```bash
+git submodule foreach git pull origin master
+git add . && git commit -m "update submodules"
+```
 
 ## Ignore changes in git submodules
 
